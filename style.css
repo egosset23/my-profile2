@@ -1,0 +1,92 @@
+/* Colors and Fonts */
+body{  
+background-color: azure;
+color: white;
+font-family: bodoni72;
+font-size:18px;
+font-weight: lighter;
+}
+
+h1, h2{
+	font-family: American Typewriter;
+}
+
+h1 {
+color: powderblue;
+}
+
+h2 {
+color: powderblue;
+}
+
+a{
+font-family: bodoni72;
+text-decoration: none;
+color: skyblue;
+font-weight: 16px;
+}
+
+a:hover{
+	color: black; 
+}
+
+/* Custom desing with class */
+
+.container {
+	width: 800px;
+	margin: 40px auto;
+	background-color: lightblue;
+	padding: 20px;
+	box-shadow: 10px 20px 40px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 2àpx 70px;
+	text-align: center;
+}
+@media (max-width: 500px){
+	.container{
+		width: 500px;
+	}
+}
+.card-white{
+	background-color: steelblue;
+	padding: 40px;
+	box-shadow: 7px 15px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 70px;
+	text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.img-bordered{
+  border: 10px solid lightblue;
+}
+.btn-blue {
+	background-color: lightblue;
+	color: white;
+	padding: 12px 20px;
+	border-radius: 5px;
+}
+.btn-blue:hover {
+	background-color: white;
+	color: black;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 45px;
+	color: skyblue;
+}
+.list-inline i:hover {
+	color: black;
+}
+#introduction p{
+	margin-bottom: 40px;
+}
